@@ -1,0 +1,10 @@
+[project]
+name = "malbert"
+version = "0.1.0"
+description = "BERT-based malware detection"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0",
+    "transformers",
+    "pefile",
+]
